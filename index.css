@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 2.5em;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 0.7em;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+#title{
+    margin: 0px;
+}
