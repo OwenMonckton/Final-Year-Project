@@ -1,3 +1,4 @@
+/* General page setup for elements */
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -18,10 +19,7 @@ header{
     text-align: center;
     margin: 0px;
     padding: 10px;
-}
-
-#title{
-    margin: 0px;
+    display: flex;
 }
 
 footer{
@@ -30,4 +28,78 @@ footer{
     margin: 0%;
     padding: 0%;
     padding-top: 1%;
+}
+
+h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1em;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    font-size: 0.7em;
+    text-align: left;
+}
+
+ul{
+    margin: 0;
+    padding: 0%;
+}
+
+/* styling on the back button in the top left */
+#back {
+    margin: 0%;
+    text-align: center;
+}
+
+#back a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling on the page title and reposition to middle of page */
+#title{
+    margin: 0px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+}
+
+#diagram {
+    height: auto;
+    width: 10%;
+}
+
+/* Styling on the force equation so that the definitions line up with the equation */
+.annotations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.labelsleft{
+    padding: 0%;
+}
+.labelsleft p{
+    font-size: 0.6em;
+    margin: 0%;
+}
+
+.labelsright{
+    padding: 0%;
+    margin-left: 1%;
+}
+.labelsright p{
+    font-size: 0.6em;
+    margin: 0%;
+}
+
+#flow{
+    height: auto;
+    width: 25%;
 }

@@ -7,10 +7,39 @@
     <link rel="stylesheet" href="shape.css">
 </head>
 <header>
+    <h1 id="back"><a href="index.html">Home</a></h1>
     <h1 id="title">Rockets Explained</h1>
 </header>
 <body>
-    
+    <h2>How does a rocket engine create the forces needed for thrust?</h1>
+    <p>As talked about <a href="thrust.html">here</a>, rocket engines generate
+        thrust by accelerating the exhaust gasses out which creates the force to generate thrust.
+        Now I want to talk about how these engines are able to accelerate the gasses.
+    </p>
+    <h2>Why engines look the way they do</h2>
+    <img id="diagram" src="images/engine-diagram.png" alt="Simplified diagram of a rocket engine showing the combustion chamber and nozzle">
+    <p>Most engines tend to have this hour glass looking shape, this is to exploit Bernoulli's principle.
+        Bernoulli's equations are long and complex but what they mean is such: 
+        when you have a fluid travelling down a tube it will have a set flow rate. This flow rate 
+        is a combination of how much water is moving down the tube and how fast it is moving. 
+        When the pressure is consistent, this flow rate is consistent. So no matter how you change the shape 
+        of the tube it will always have the same flow of a fluid through it.
+    </p>
+    <div class="annotations">
+        <ul class="labelsleft">
+            <p>High Pressure</p>
+            <p>Low Velocity</p>
+        </ul>
+        <img id="flow" src="images/Bernoulli.png" alt="A diagram showing a tube with a converging diverging pinch.">
+        <ul class="labelsright">
+            <p>Low Presure</p>
+            <p>High Velocity</p>
+        </ul>
+    </div>
+    <p>What this means in the case of rocket engines is that if you pinch a section of the tube, restricting the amount of fluid that 
+        can flow through, the fluid must speed up to have the same flow rate as before.
+        This acceleration of the fluid is what generates the thrust by producing a <a href="thrust.html">force</a>.
+    </p>
     <footer>Owen Monckton</footer>
 </body>
 </html>
