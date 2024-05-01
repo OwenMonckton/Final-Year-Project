@@ -7,22 +7,47 @@
     <link rel="stylesheet" href="thrust.css">
 </head>
 <header>
+    <h1 id="back"><a href="index.html">Home</a></h1>
     <h1 id="title">Rockets Explained</h1>
 </header>
 <body>
-    <div class="container">
-        <div class="overlay"></div>
-        <img id="homePhoto" src="images/PXL_20230830_154308118.jpg" alt="Space Shuttle Main Engine">
-        <div class="left">
-            <p>This is my final year project about rocket engines. The goal of this project is to explain how a rocket engine works using more intuitive methods.</p> 
-            <p>This project aims to explore and explain 3 main areas:</p>
-            <ul id="contents">
-                <li>How rockets produce thrust</li>
-                <li>Why rockets look the way they do</li>
-                <li>How to keep a rocket cool</li>
-            </ul>
-        </div>
+    <h2>How do rockets produce thrust?</h2>
+    <p>Rockets, the epitome of human innovation and exploration, 
+        harness the fundamental principle of Newton's third law of 
+        motion to propel themselves through the vast expanse of space. 
+        At their core, rockets produce thrust through the controlled 
+        expulsion of high-speed exhaust gases.
+    </p>
+    <h2>
+        Newtons Third Law
+    </h2>
+    <p>
+        Newtons third law can be defined as: for every action there is an equal and opposite reaction.
+        What this means is that when a force is applied to an object, the object applies the same force back.
+    </p>
+    <div class="forcecontainer">
+        <img id="forceequation" src="images/force_equation.png" alt="force equation F=ma">
+        <ul class="definitions">
+            <p id="force">Force</p>
+            <p id="mass">mass</p>
+            <p id="acceleration">acceleration</p>
+        </ul>
     </div>
+    <p>
+        Force is defined as the mass of the object multiplied by its acceleration.
+        A rocket engine works by igniting fuels and then accelerating the hot gasses out of the end of the nozzle.
+        When the gas accelerates out of the back of the engine it gains a force acting on it in the direction of motion.
+        This force cannot come from nothing, so to balance this out an equal force acts on the engine.
+    </p>
+    <img id="engine" src="images/engine.png" alt="A diagram of a rocket nozzle showing the forces formed from the accelerating gasses">
+    <p>So a different way of thinking about it is that as the gasses are leaving the engine, they gain speed (accelerate) by pushing against the engine. 
+        This pushing against the engine is what generates thrust and pushes a rocket to space.
+    </p>
+    <p id="misconception">There is a misconception that rockets produce thrust by "pushing" themselves off the ground.
+        This is incorrect, as we've talked about, engines push themselves away. This is how rockets can work in space
+        where there is no ground or air to push against.
+    </p>
+    <h1><a href="rocketShape.html">How do rockets accelerate the gasses?</a></h1>
     <footer>Owen Monckton</footer>
 </body>
 </html>
