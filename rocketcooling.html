@@ -7,22 +7,52 @@
     <link rel="stylesheet" href="cooling.css">
 </head>
 <header>
+    <h1 id="back"><a href="index.html">Home</a></h1>
     <h1 id="title">Rockets Explained</h1>
 </header>
 <body>
-    <div class="container">
-        <div class="overlay"></div>
-        <img id="homePhoto" src="images/PXL_20230830_154308118.jpg" alt="Space Shuttle Main Engine">
-        <div class="left">
-            <p>This is my final year project about rocket engines. The goal of this project is to explain how a rocket engine works using more intuitive methods.</p> 
-            <p>This project aims to explore and explain 3 main areas:</p>
-            <ul id="contents">
-                <li>How rockets produce thrust</li>
-                <li>Why rockets look the way they do</li>
-                <li>How to keep a rocket cool</li>
-            </ul>
-        </div>
-    </div>
+    <h2>How do rocket engines stay cool?</h2>
+    <p>As I've discussed in the other sections, rocket engines produce 
+        thrust by igniting a fuel and then accelerating the exhaust.
+        Unlike a car engine or a turbine engine, these fules can burn 
+        at thousands of degrees for long periods of time. 
+        So at such high temperatures for prelonged periods, why doesn't a 
+        rocket engine melt?
+    </p>
+    <h2>How rockets are engineered to stay cool</h2>
+    <p>
+        Engineers designed some very clever solutions to combat the 
+        heat of the internal combuistion chamber. One of these solutions
+        envolves pumping cryogenic liquid oxygen around the engine to 
+        cool it down.
+    </p>
+    <img id="coolingpipes" src="images/Shuttle_Main_Engine_Test_Firing.jpg" alt="A photo of the RS-25 engine dueing a test fire.">
+    <p>
+        The image above is of the RS-25 engine use on the space shuttle, 
+        it has a series of pipes that run along the outside of the 
+        engine nozzle. These pipes pump liquid oxygen around to combat 
+        the hot temperatures that can reach up to ~900°C! The nozzle 
+        of a rocket engine is not as hot as the combustion chamber so a 
+        solution like this wouldn't work.
+    </p>
+    <h2>
+        How to cool a combustion chamber
+    </h2>
+    <p>
+        The combustion chamber of a rocket engine can reach upwards of 
+        3300°C, the previous method discussed would not be able to pull 
+        that much heat out of the system. As a result engineers designed 
+        a new solution capable of dealing with this heat.
+    </p>
+    <img id="combustion" src="images/combustion-chamber.png" alt="A top down view of a combustion chamber showing cutouts in the walls for cooling channels">
+    <p>
+        In the walls of the combustion chamber are small cut outs
+        that allow for a liquid to flow through them. By cooling 
+        the walls this way it means that the heat can be directly 
+        taken away rather than having a buffer like with the pipes above.
+        Without this system in place the engine would melt the walls 
+        away and eventually blow up.
+    </p>
     <footer>Owen Monckton</footer>
 </body>
 </html>

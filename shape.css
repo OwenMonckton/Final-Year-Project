@@ -75,7 +75,7 @@ ul{
     width: 10%;
 }
 
-/* Styling on the force equation so that the definitions line up with the equation */
+/* Styling on the diagrams so that the labels line up */
 .annotations{
     display: flex;
     flex-direction: row;
@@ -89,7 +89,6 @@ ul{
     font-size: 0.6em;
     margin: 0%;
 }
-
 .labelsright{
     padding: 0%;
     margin-left: 1%;
@@ -99,7 +98,13 @@ ul{
     margin: 0%;
 }
 
+
+
 #flow{
     height: auto;
     width: 25%;
+}
+
+#conclusion{
+    margin-top: 3%;
 }

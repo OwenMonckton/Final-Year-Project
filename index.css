@@ -29,6 +29,7 @@ header{
     width: 100%;
 }
 
+/* put a black to transparent gradient over the image for readability */
 .overlay {
     position: absolute;
     top: 0;
