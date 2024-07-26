@@ -12,6 +12,7 @@
     <h1 id="title">Rockets Explained</h1>
 </header>
 <body>
+    <p>Here you can input values into this table and get the calculations of how the engine would perform with those values.</p>
     <table id="calculations">
         <tr>
             <td>
@@ -59,6 +60,22 @@
     <p id="error"></p>
     <button id="calculate">Calculate</button>
     <button id="clear">Clear</button>
+    <p>This table works off 2 equations. Thrust = Mass flow X Exhaust Velocity, and 
+        Specific Impulse (Isp) = Exhaust Velocity X 9.81. Thrust is of course 
+        how much force the engine can generate at max throttle. Specific impulse is a 
+        measurement of efficiency. It tells you how efficient an engine is by how long it can 
+        produce a set amount of thrust given a set fuel load. So for example, if an engine has 
+        100 seconds of Specific Impulse that means it can produce 1kg of thrust for 100 seconds 
+        from 1kg of fuel. So the larger the specific impulse, the more efficient the rocket engine.
+    </p>
+    <p>To achieve such high specific impulse you have to accelerate your exhaust gasses 
+        extremely fast while at the same time not shooting out heavy amounts of exhaust gasses.
+        This is why nuclear hydrogen engines are so efficient. They can super heat gasses hotter then 
+        combustion making the gasses super fast and by using hydrogen (which is the smallest element and
+        lightest gas) they have a very light mass flow. They can accelerate smaller and lighter gasses faster.
+        They can have specfic impulses upwards of 900 seconds compared to combustion that can only reach a peak 
+        of 450!
+    </p>
     <footer>Owen Monckton</footer>
 </body>
 </html>

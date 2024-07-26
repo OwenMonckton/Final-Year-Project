@@ -43,7 +43,7 @@ p{
     margin-bottom: 0%;
     padding: 0%;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
 }
 
 ul{
@@ -70,43 +70,43 @@ ul{
     transform: translate(50%, 0%);
 }
 
-#diagram {
-    height: auto;
-    width: 10%;
+button{
+    font-size: 0.7em;
 }
 
-#calculations{
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+#ar1{
+    color: green;
 }
-
-td, th{
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+#aw1{
+    color: red;
 }
-
-#calculate{
-    font-size: 1em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#ar2{
+    color: green;
 }
-#clear{
-    font-size: 1em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#aw2{
+    color: red;
 }
-
-#error{
-    text-align: center;
-    font-size: 2em;
+#ar3{
+    color: green;
+}
+#aw3{
+    color: red;
+}
+#ar4{
+    color: green;
+}
+#aw4{
+    color: red;
+}
+#ar5{
+    color: green;
+}
+#aw5{
+    color: red;
+}
+#ar6{
+    color: green;
+}
+#aw6{
     color: red;
 }
